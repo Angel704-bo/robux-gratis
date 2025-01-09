@@ -1,4 +1,5 @@
-let quantidade = 0;
+let quantidade = 8000
+  ;
 
 document.getElementById('btnGanharRobux').addEventListener('click', function() {
   quantidade += Math.floor(Math.random() * 100) + 1; // Gera um número aleatório entre 1 e 100
